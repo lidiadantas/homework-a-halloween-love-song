@@ -1,34 +1,67 @@
-# 🦇 Bilingual Club — R.I.P. | Halloween Edition
+# Bilingual Club — R.I.P. | Halloween Edition
 
-An interactive, gothic-themed website created for an English class presentation about *R.I.P.*, by Motionless In White featuring Skylar Grey. The project combines music, Halloween aesthetics, and interactive navigation to explore the song's story, themes, and romantic undertones.
+## English
 
-## ✨ Features
+An interactive website created for an English class presentation about **“R.I.P.” by Motionless In White featuring Skylar Grey**.
 
-- Interactive navigation through the presentation questions
-- Gothic Halloween-inspired visual design
-- Animated flying bat
+With a gothic, Halloween-inspired visual style, the project explores the song, its artists, its themes, and the connection between romance and darker imagery. Visitors can navigate through six presentation questions and open the music video.
+
+### Features
+
+- Interactive navigation between presentation questions
+- Gothic, Halloween-inspired design
+- Animated bat
 - Link to the music video
+- Responsive layout
 
-## 🛠️ Built with
+### Technologies
 
 - HTML
 - CSS
 - JavaScript
 
-## 👀 Live preview
+### Preview
 
-Once GitHub Pages is enabled, add your published site link here:
+![Bilingual Club website preview](assets/preview.png)
 
-**[Open the live website](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/)**
+Place your screenshot in the `assets` folder and name it `preview.png`. If you prefer to keep its current filename, change the image path above to match it exactly.
 
-To add a visual screenshot to this README, save a screenshot of the website as `assets/preview.png` and uncomment the line below:
+### Run locally
 
-<!-- ![Bilingual Club website preview](assets/preview.png) -->
-
-## 🚀 Run locally
-
-Download or clone this repository and open `index.html` in a browser.
+Download or clone this repository, then open `index.html` in your browser.
 
 ---
 
-Created for English class · Halloween edition · by Lidia Dantas 🦇
+## Português (Brasil)
+
+Um site interativo desenvolvido para uma apresentação de inglês sobre **“R.I.P.”, da banda Motionless In White com participação de Skylar Grey**.
+
+Com uma identidade visual gótica inspirada no Halloween, o projeto apresenta a música, seus artistas, seus temas e a relação entre romance e elementos sombrios. A navegação permite explorar seis perguntas sobre a canção e acessar o videoclipe.
+
+### Funcionalidades
+
+- Navegação interativa entre as perguntas da apresentação
+- Design gótico inspirado no Halloween
+- Animação de um morcego
+- Link para o videoclipe
+- Layout adaptável a diferentes telas
+
+### Tecnologias
+
+- HTML
+- CSS
+- JavaScript
+
+### Pré-visualização
+
+![Prévia do site Bilingual Club](assets/preview.png)
+
+Coloque a captura de tela na pasta `assets` com o nome `preview.png`. Se quiser manter o nome atual do arquivo, altere o caminho da imagem acima para corresponder exatamente a ele.
+
+### Como executar localmente
+
+Baixe ou clone este repositório e abra o arquivo `index.html` no navegador.
+
+---
+
+Developed by Lidia Dantas for an English class project.
