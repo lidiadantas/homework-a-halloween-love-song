@@ -24,7 +24,6 @@ With a gothic, Halloween-inspired visual style, the project explores the song, i
 
 ![Bilingual Club website preview](assets/preview.png)
 
-Place your screenshot in the `assets` folder and name it `preview.png`. If you prefer to keep its current filename, change the image path above to match it exactly.
 
 ### Run locally
 
@@ -56,7 +55,6 @@ Com uma identidade visual gótica inspirada no Halloween, o projeto apresenta a 
 
 ![Prévia do site Bilingual Club](assets/preview.png)
 
-Coloque a captura de tela na pasta `assets` com o nome `preview.png`. Se quiser manter o nome atual do arquivo, altere o caminho da imagem acima para corresponder exatamente a ele.
 
 ### Como executar localmente
 
