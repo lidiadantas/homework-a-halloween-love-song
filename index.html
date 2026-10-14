@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>R.I.P. — A Gothic Love Story</title>
+<style>
+:root{--bg:#09090d;--panel:#15131a;--wine:#8f1837;--red:#c33b58;--silver:#d8d5df;--muted:#aaa4b2;--lav:#b9a8df}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(ellipse at 50% 0%,#32101f 0%,#100d14 42%,var(--bg) 78%);color:#f4eff5;font-family:Georgia,'Times New Roman',serif;line-height:1.6}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.14;background-image:radial-gradient(#fff 0.6px,transparent .6px);background-size:22px 22px}
+a{color:#e4b7c5}
+.wrap{max-width:980px;margin:auto;padding:24px 20px 60px;position:relative}
+.topline{display:flex;justify-content:space-between;align-items:center;gap:12px;font:700 .72rem Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:var(--lav)}
+.pill{border:1px solid #654052;border-radius:99px;padding:6px 11px;color:#e8cbd4}
+.hero{text-align:center;padding:66px 12px 42px}
+.eyebrow{font:700 .75rem Arial,sans-serif;letter-spacing:.32em;text-transform:uppercase;color:#d5a6b6}
+h1{font-size:clamp(3.2rem,10vw,7rem);line-height:.92;letter-spacing:-.05em;margin:18px 0 16px;text-shadow:0 0 30px #8f183755}
+h1 span{display:block;font-size:.27em;letter-spacing:.26em;font-family:Arial,sans-serif;color:#d7cbdc;margin-top:23px}
+.subtitle{max-width:560px;margin:0 auto;color:#d0c7d3;font-size:1.12rem}
+.seal{font-size:2.4rem;margin:25px 0 0;color:var(--red)}
+.intro{max-width:700px;margin:0 auto 32px;text-align:center;color:var(--muted);font: .95rem/1.7 Arial,sans-serif}
+.progress{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:24px 0 18px}
+.progress button{font:700 .76rem Arial,sans-serif;letter-spacing:.06em;border:1px solid #4e3441;background:#151019;color:#cfc3d1;border-radius:99px;padding:9px 13px;cursor:pointer;transition:.2s}
+.progress button:hover,.progress button:focus-visible{border-color:var(--red);color:#fff;outline:2px solid transparent}
+.progress button.active{background:var(--wine);border-color:#b64a68;color:#fff}
+.card{background:linear-gradient(145deg,#1b1720ee,#100e14f5);border:1px solid #4b303e;border-radius:18px;padding:clamp(22px,5vw,42px);box-shadow:0 22px 70px #0008;max-width:760px;margin:0 auto;min-height:300px}
+.card-head{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.num{width:44px;height:44px;display:grid;place-items:center;border-radius:50%;background:#3b1726;border:1px solid #88425a;color:#f0c4d0;font:700 .95rem Arial,sans-serif;flex-shrink:0}
+.kicker{font:700 .7rem Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:#c39aab}
+h2{font-size:clamp(1.6rem,5vw,2.4rem);line-height:1.15;margin:4px 0 0}
+.answer{font:1.06rem/1.8 Arial,sans-serif;color:#e2dce5;min-height:100px}
+.answer strong{color:#fff}
+.answer .highlight{color:#efb5c6}
+.mini{font: .8rem/1.6 Arial,sans-serif;color:var(--muted);border-left:2px solid var(--wine);padding-left:13px;margin-top:18px}
+.actions{display:flex;justify-content:space-between;gap:12px;margin-top:28px;flex-wrap:wrap}
+button.action{cursor:pointer;border:1px solid #6a3a4c;background:#25131c;color:#f8eaf0;border-radius:10px;padding:12px 17px;font:700 .86rem Arial,sans-serif}
+button.action.primary{background:var(--wine);border-color:#b74b68}
+button.action:hover{filter:brightness(1.2)}
+button:focus-visible,a:focus-visible{outline:2px solid var(--lav);outline-offset:3px}
+.listen{max-width:760px;margin:22px auto 0;border:1px solid #39303d;border-radius:14px;padding:18px 20px;display:flex;align-items:center;justify-content:space-between;gap:15px;background:#100e14cc;flex-wrap:wrap}
+.listen p{margin:0;font: .86rem/1.5 Arial,sans-serif;color:#c9c0ce}
+.listen a{font:700 .84rem Arial,sans-serif;text-decoration:none;border-bottom:1px solid #a75a71;padding-bottom:3px}
+.bat{position:fixed;z-index:5;top:16%;left:-60px;font-size:28px;filter:drop-shadow(0 0 8px #a72f54);pointer-events:none;animation:bat-flight 18s linear infinite}
+@keyframes bat-flight{0%{transform:translate(-5vw,0) rotate(-8deg)}20%{transform:translate(28vw,45px) rotate(8deg)}45%{transform:translate(58vw,-20px) rotate(-5deg)}70%{transform:translate(88vw,55px) rotate(9deg)}100%{transform:translate(115vw,-5px) rotate(-8deg)}}
+@media(prefers-reduced-motion:reduce){.bat{animation:none;left:auto;right:20px;top:15%;}}
+.footer{text-align:center;margin-top:44px;color:#8f8796;font: .75rem/1.6 Arial,sans-serif;letter-spacing:.04em}
+.footer .rose{font-size:1.3rem;color:#a83b59}
+@media(max-width:520px){.hero{padding-top:48px}.topline{font-size:.62rem}.card{border-radius:14px}.listen{align-items:flex-start}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="topline"><span>Bilingual Club</span><span class="pill">Case No. 013</span></div>
+  <header class="hero">
+    <div class="eyebrow">A Halloween-inspired song presentation</div>
+    <h1>R.I.P.<span>A GOTHIC LOVE STORY</span></h1>
+    <p class="subtitle">Can a love story be beautiful, haunting… and a little bit terrifying?</p>
+    <div class="seal" aria-hidden="true">✦ ☾ ✦</div>
+  </header>
+  <p class="intro">Open each file to uncover the story behind the song. Six questions. One dark romance. Proceed after midnight… if you dare.</p>
+  <div class="bat" aria-hidden="true">🦇</div>
+  <nav class="progress" aria-label="Presentation questions" id="nav">
+    <button class="active" data-step="0">01 · The song</button>
+    <button data-step="1">02 · The artist</button>
+    <button data-step="2">03 · The source</button>
+    <button data-step="3">04 · The meaning</button>
+    <button data-step="4">05 · Halloween + love</button>
+    <button data-step="5">06 · My favorite part</button>
+  </nav>
+  <section class="card" aria-live="polite" aria-atomic="true">
+    <div class="card-head"><div class="num" id="num">01</div><div><div class="kicker" id="kicker">Evidence found</div><h2 id="question">What’s the song?</h2></div></div>
+    <div class="answer" id="answer"><strong>“R.I.P.”</strong> — a dark, emotional song about love, conflict, and the fear of losing someone.</div>
+    <div class="mini" id="note">The title stands for “Rest in Peace” — a phrase usually connected with death and funerals.</div>
+    <div class="actions"><button class="action" id="prev" disabled>← Previous</button><button class="action primary" id="next">Next clue →</button></div>
+  </section>
+  <section class="listen">
+    <div><p><strong style="color:#f4eff5">Listen to the song</strong><br>Official lyric video · Motionless In White</p></div>
+    <a href="https://www.youtube.com/watch?v=OeRIoWmQA6k&list=RDOeRIoWmQA6k&start_radio=1" target="_blank" rel="noopener noreferrer">Play on YouTube ↗</a>
+  </section>
+  <footer class="footer"><div class="rose">✧ 🥀 ✧</div>Some love stories end. Others refuse to rest in peace.<br>Created for English class · Halloween edition · by Lidia Dantas</footer>
+</main>
+<script>
+const slides = [
+ {k:"Evidence found",q:"What’s the song?",a:"<strong>“R.I.P.”</strong> — a dark, emotional song about love, conflict, and the fear of losing someone.",n:"The title stands for “Rest in Peace” — a phrase usually connected with death and funerals."},
+ {k:"The artist",q:"Who is the artist?",a:"The song is by <strong>Motionless In White</strong>, featuring <strong>Skylar Grey</strong>. Their contrasting voices give the song an intense, dramatic feeling.",n:"The track appears on Motionless In White’s 2026 album <em>Decades</em>."},
+ {k:"Where the trail began",q:"Where did I find it?",a:"I discovered the song through <strong>Spotify’s Explore feature</strong>. Its style caught my attention first, and then the story behind it made me want to listen more closely.",n:"I was drawn in by the dark sound and the emotional story — a perfect fit for this Halloween-inspired theme."},
+ {k:"Reading between the lines",q:"What is the song about?",a:"It explores a relationship in trouble: two people have hurt each other, but they still care deeply. They are afraid the relationship may be over, and they don’t know whether they can fix it.",n:"The song is not simply about death. Death and funerals work as metaphors for a relationship that might be ending."},
+ {k:"The beautiful and the macabre",q:"How does it mix Halloween vibes with romance?",a:"It combines <strong>gothic imagery</strong> — death, graves, and a funeral-like atmosphere — with the emotional intensity of love. The result feels haunting and romantic at the same time, like a love story in a dark fantasy film.",n:"The dramatic piano, heavy sound, and male-female vocals make the song feel cinematic and mysterious."},
+ {k:"The line that stayed with me",q:"What part caught my attention?",a:"The idea that someone can be heartbroken and still unable to let go caught my attention. I also love the contrast between the haunting atmosphere and the vulnerability in the vocals.",n:"The song explores the painful silence after an argument, when two people want to fix things but do not know how. Love and suffering become intertwined throughout the song."}
+];
+let current=0;
+const nav=[...document.querySelectorAll('[data-step]')];
+function render(i){current=i;const s=slides[i];document.getElementById('num').textContent=String(i+1).padStart(2,'0');document.getElementById('kicker').textContent=s.k;document.getElementById('question').textContent=s.q;document.getElementById('answer').innerHTML=s.a;document.getElementById('note').innerHTML=s.n;document.getElementById('prev').disabled=i===0;document.getElementById('next').textContent=i===slides.length-1?'↺ Start again':'Next clue →';nav.forEach((b,j)=>{b.classList.toggle('active',j===i);b.setAttribute('aria-current',j===i?'step':'false')});}
+nav.forEach(b=>b.addEventListener('click',()=>render(Number(b.dataset.step))));
+document.getElementById('prev').addEventListener('click',()=>render(Math.max(0,current-1)));
+document.getElementById('next').addEventListener('click',()=>render(current===slides.length-1?0:current+1));
+</script>
+</body>
+</html>
